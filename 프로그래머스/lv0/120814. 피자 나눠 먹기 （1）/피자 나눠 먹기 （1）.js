@@ -4,4 +4,7 @@ function solution(n) {
     var answer = 0;
     answer = n % 7 !== 0 ? Math.ceil(n/7) : n/7
     return answer;
+    
+    // 생각해보니
+    // return Math.ceil(n / 7) 이렇게 해주면 끝남...
 }

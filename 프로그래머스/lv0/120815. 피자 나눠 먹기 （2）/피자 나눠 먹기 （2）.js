@@ -18,3 +18,23 @@ function solution(n) {
     answer = max / 6;
     return answer;
 }
+
+/*
+const solution = (n) => {
+// 피자조각 6개 초기화
+    let piece = 6
+// 일단 냅다 while문 돌게
+    while(true) {
+    // 최소공배수일때만 break걸것임
+        if (piece % n === 0) {
+            break
+        }
+        // 안걸리면 계속 6의 배수로!!
+        piece += 6
+    }
+//마지막엔 다시 6으로 나눠주기!
+    return piece / 6
+}
+
+
+*/

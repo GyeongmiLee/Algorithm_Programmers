@@ -12,3 +12,12 @@ function solution(slice, n) {
         }
     }
 }
+
+/*
+
+function solution(slice, n) {
+    return Math.ceil(n / slice)
+}
+
+그냥 올려버렸으면 됐다...
+*/

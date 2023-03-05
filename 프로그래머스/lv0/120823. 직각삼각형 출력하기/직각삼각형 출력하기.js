@@ -24,3 +24,11 @@ rl.on('line', function (line) {
     }
     console.log(answer)
 });
+
+/*
+  for(let i = 1; i < n + 1; i++) {
+        console.log('*'.repeat(i));
+        repear()은 반복시!
+    }
+
+*/

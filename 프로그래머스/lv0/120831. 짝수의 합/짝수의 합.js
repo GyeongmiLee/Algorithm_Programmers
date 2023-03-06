@@ -8,3 +8,9 @@ function solution(n) {
    }
     return arr.reduce((a,b)=> a+b);
 }
+
+/*
+       for(let i=2 ; i<=n ; i+=2)
+        answer += i; 이렇게 반복횟수 줄일 수 있음
+
+*/

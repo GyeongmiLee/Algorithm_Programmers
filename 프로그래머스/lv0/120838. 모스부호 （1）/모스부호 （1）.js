@@ -14,3 +14,9 @@ function solution(letter) {
     }
     return answer;
 }
+
+/*
+function solution(letter) {
+    return letter.split(' ').reduce((prev, curr) => prev + morse[curr], '')
+}
+*/

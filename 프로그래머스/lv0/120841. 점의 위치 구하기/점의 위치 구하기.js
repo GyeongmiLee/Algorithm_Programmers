@@ -5,3 +5,15 @@ function solution(dot) {
     else if(dot[0]<0 && dot[1]<0) return 3;
     else return 4;
 }
+
+
+/*
+    function solution(dot) {
+    const [num,num2] = dot;
+    const check = num * num2 > 0;  //둘다 음인경우, 둘다 양인경우
+    return num > 0 ? (check ? 1 : 4) : (check ? 3 : 2);
+     // num > 0 인경우 1(check) , 4(check 아님)
+}
+=> 비구조화할당!
+
+*/
